@@ -40,7 +40,7 @@ ESERCIZIO 2
   num >= 20 - mostra in console "Huge"
 */
 
-let num = 'ciao';
+let num = '4';
 let mess;
 
 if(num < 5){
