@@ -4,7 +4,30 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let num1 = 5;
+let num2 = 10;
+let numMagg;
+
+if (num1 > num2){
+  numMagg = 'num1 è maggiore di num2'
+
+  console.log(numMagg);
+}
+
+ else if (num1 < num2){
+  numMagg = 'num2 è maggiore di num1'
+
+  console.log(numMagg);
+}
+
+else {
+  numMagg = 'i due numeri sono uguali'
+
+  console.log(numMagg);
+  
+}
+
+
 
 /*
 ESERCIZIO 2
