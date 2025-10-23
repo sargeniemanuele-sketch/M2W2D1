@@ -40,7 +40,44 @@ ESERCIZIO 2
   num >= 20 - mostra in console "Huge"
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let num = 'ciao';
+let mess;
+
+if(num < 5){
+  let mess = 'Tiny';
+
+  console.log(mess);
+}
+
+if(num < 10){
+  let mess = 'Small';
+
+  console.log(mess);
+}
+
+if(num < 15){
+  let mess = 'Medium';
+
+  console.log(mess);
+}
+
+if(num < 20){
+  let mess = 'Large';
+
+  console.log(mess);
+}
+
+else if(num >= 20){
+  let mess = 'Huge';
+
+  console.log(mess);
+}
+
+else{
+  let mess = 'non è un numero';
+
+  console.log(mess);
+}
 
 //ESERCIZI SUI CICLI: 
 
