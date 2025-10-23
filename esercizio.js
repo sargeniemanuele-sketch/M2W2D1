@@ -40,7 +40,7 @@ ESERCIZIO 2
   num >= 20 - mostra in console "Huge"
 */
 
-let num = '4';
+let num = 4;
 let mess;
 
 if(num < 5){
@@ -55,7 +55,7 @@ if(num < 10){
   console.log(mess);
 }
 
-if(num < 15){
+ if(num < 15){
   let mess = 'Medium';
 
   console.log(mess);
@@ -85,13 +85,26 @@ else{
   Mostra i numeri da 0 a 10 (incluso) in ordine ascendente, ma evitando di mostrare i numeri 3 e 8 (suggerimento: ripassa l'uso di "continue").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+for(let i = 0; i <= 10; i++) {
+  if (i === 3 || i === 8) {
+    continue
+  } else console.log(i);
+}
 
 /* ESERCIZIO 11
   Scrivi un ciclo in JavaScript per iterare da 0 a 15. Per ciascun elemento, il ciclo deve controllare the il valore corrente sia pari o dispari, e mostrare il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+for( let i = 0; i <= 15; i++){
+  if(i % 2 === 0) {
+    console.log(i);
+    console.log(' ^ numero pari');
+  } else {
+    console.log(i);
+    console.log(' ^ numero dispari');
+  }
+}
+
 
 //ESERCIZI EXTRA NON OBBLIGATORI
 
@@ -99,7 +112,7 @@ else{
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO EXTRA 2
 Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
